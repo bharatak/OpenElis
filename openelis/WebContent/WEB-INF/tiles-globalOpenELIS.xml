@@ -5,10 +5,6 @@
 
 <tiles-definitions>
 
-    <definition name="databaseCleaningDefinition" extends="baseMenuDefinition">
-        <put name="body" value="/pages/common/databaseCleaner.jsp"/>
-    </definition>
-
     <definition name="samplePatientEntryDefinition" extends="baseDefinition">
         <put name="preSelectionHeader" value="/pages/common/actionSuccess.jsp"/>
         <put name="body" value="samplePatientEntryCore"/>
